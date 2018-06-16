@@ -1,0 +1,14 @@
+body{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.serif{
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.regular{
+  font-weight: 400;
+}
+
+input {
+  text-align: center;
+}
