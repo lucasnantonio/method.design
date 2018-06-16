@@ -4,85 +4,89 @@
 <head>
   <meta charset="UTF-8">
   <title>Methodology : Design</title>
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-XXXXXXXX-Y']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-      var ga = document.createElement('script');
-      ga.type = 'text/javascript';
-      ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(ga, s);
-    })();
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120931703-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120931703-1');
   </script>
+  <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
   <link rel="stylesheet" href="./main.css" />
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700|IBM+Plex+Serif:400,700" rel="stylesheet">
 </head>
 
-<body>
+<body class="m0 p0 ph4">
   <!-- page wrapper -->
-  <section class="vh-100 flex flex-column">
+  <section class="vh-100 flex flex-column mt0">
     <!-- Logo -->
-    <section class="flex center w-100">
-      <h1 class="serif center b tracked-tight f3">Methodology</h1>
+    <section class="flex center w-100 mt0">
+      <h1 class="serif center b tracked-tight f3 bw2">Methodology</h1>
     </section>
     <!-- End Logo -->
     <!-- Content wrapper -->
-    <section class="h-100 flex flex-column justify-center">
-      <h1 class="f2 serif regular center measure-narrow tc lh-title tracked-tight">
+    <section class="ma0 h-100 flex flex-column justify-center">
+      <h1 class="ma0 f2-ns f3 b serif center measure-narrow tc lh-title tracked-tight">
         A collaborative, open-source repository for the most valuable design content.
       </h1>
-      <h2 class='f5 center measure tc pt1 pb5 regular'>
+      <h2 class='f5 center measure tc pt1 pb5 regular black-50'>
         Let's rise the bar for quality in the design practice, together.
       </h2>
-      <div class="flex pv3 justify-center">
-        <div class="flex flex-column mr4">
-          <div class="w3 h3 br-pill bg-near-white">
+      <div class="flex flex-wrap pv3 justify-center">
+        <div class="flex flex-column mr4 mb4">
+          <div class=" flex justify-center w2 h2 center">
+            <img src="./img/icon-articles.svg" alt="icon articles">
           </div>
           <p class="regular f6 tc b ttu">
             Articles
           </p>
         </div>
-        <div class="flex flex-column mr4">
-          <div class="w3 h3 br-pill bg-near-white">
+        <div class="flex flex-column mr4 mb4">
+          <div class=" flex justify-center w2 h2 center">
+            <img src="./img/icon-books.svg" alt="icon books">
           </div>
           <p class="regular f6 tc b ttu">
             Books
           </p>
         </div>
-        <div class="flex flex-column mr4">
-          <div class="w3 h3 br-pill bg-near-white">
+        <div class="flex flex-column mr4 mb4">
+          <div class=" flex justify-center w2 h2 center">
+            <img src="./img/icon-quotes.svg" alt="icon quotes">
           </div>
           <p class="regular f6 tc b ttu">
             Quotes
           </p>
         </div>
-        <div class="flex flex-column mr4">
-          <div class="w3 h3 br-pill bg-near-white">
+        <div class="flex flex-column mr4 mb4">
+          <div class=" flex justify-center w2 h2 center">
+            <img src="./img/icon-papers.svg" alt="icon papers">
           </div>
           <p class="regular f6 tc b ttu">
-            Talks
+            papers
           </p>
         </div>
-        <div class="flex flex-column mr4">
-          <div class="w3 h3 br-pill bg-near-white">
+        <div class="flex flex-column mr4 mb4">
+          <div class=" flex justify-center w2 h2 center">
+            <img src="./img/icon-videos.svg" alt="icon videos">
           </div>
           <p class="regular f6 tc b ttu">
-            Courses
+            Videos
           </p>
         </div>
-        <div class="flex flex-column mr4">
-          <div class="w3 h3 br-pill bg-near-white">
+        <div class="flex flex-column mr4 mb4">
+          <div class=" flex justify-center w2 h2 center">
+            <img src="./img/icon-files.svg" alt="icon files">
           </div>
           <p class="regular f6 tc b ttu">
             Files
           </p>
         </div>
-        <div class="flex flex-column ">
-          <div class="w3 h3 br-pill bg-near-white">
+        <div class="flex flex-column mb4">
+          <div class=" flex justify-center w2 h2 center">
+            <img src="./img/icon-tools.svg" alt="icon tools">
           </div>
           <p class="regular f6 tc b ttu ">
             Tools
@@ -103,16 +107,13 @@
             </div>
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_08c392fa31074215393d10f76_3eb4bbda2f" tabindex="-1" value=""></div>
-            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button pa3 bg-black white flex w-100 b--black dim ttu f5"></div>
+            <div class="clear"><input type="submit" value="get notified" name="subscribe" id="mc-embedded-subscribe" class="button pa3 bg-black white flex w-100 b--black dim ttu f5"></div>
           </div>
         </form>
       </div>
       <!--End mc_embed_signup-->
     </section>
     <!--  End Content wrapper -->
-    <footer class="pa4 b--black-30 w-100 tc bg-near-white">
-      We're open source! Contribute
-    </footer>
   </section>
   <!-- end page wrapper -->
 </body>
